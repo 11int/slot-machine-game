@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/slot-machine-game/static/css/main.b3603ecf.css",
+    "main.js": "/slot-machine-game/static/js/main.ec6d736e.js",
+    "index.html": "/slot-machine-game/index.html",
+    "main.b3603ecf.css.map": "/slot-machine-game/static/css/main.b3603ecf.css.map",
+    "main.ec6d736e.js.map": "/slot-machine-game/static/js/main.ec6d736e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3603ecf.css",
+    "static/js/main.ec6d736e.js"
+  ]
+}
