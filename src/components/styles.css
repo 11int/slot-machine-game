@@ -1,0 +1,98 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background: #000000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#slot-machine {
+    border-radius: 10vh;
+    background: #1f1f1f;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2#title {
+    color: #00ffcc; /* Teal color */
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+}
+
+section.slots {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2d2d2d; /* Dark gray background */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#button-slot {
+    color: #ffffff; /* White text */
+    font-size: 26px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #21dc62; /* Pinkish color */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#button-slot:hover {
+    background-color: #ff3385; /* Darker pink on hover */
+}
+
+.icons {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    color: #ffcc00; /* Yellow color for icons */
+}
+
+div#result {
+    width: 300px;
+    margin: 10px auto;
+    border: 1px solid #00ffcc; /* Teal border */
+    border-radius: 15px;
+    background-color: #2d2d2d66; /* Slightly transparent dark gray */
+    padding: 10px;
+    color: #ffffff; /* White text */
+}
+
+.money-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.difficulty-select {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .difficulty-label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .difficulty-container {
+    margin-bottom: 10px;
+  }
+  
